@@ -1,0 +1,139 @@
+html,body,div,span,iframe,map,img,a img,samp,strong,hr,
+h1,h2,h3,h4,h5,h6,b,p,blockquote,a,address,code,dl,dt,dd,ol,
+ul,li,form,label,table,tr,td,th,input,textarea{padding:0;margin:0;border:0;font-family: Microsoft YaHei;}
+ul,li{list-style:none;}
+.clear{clear: both;}
+
+/*头部开始*/
+#Head{width: 100%;background: #403e3f url(../img/top-bj.png) no-repeat center;}
+#Head .content{width:1024px;margin: 0 auto;padding-top: 30px;}
+#Head .content .top{ width:1024px;height:122px;}
+#Head .content .top .logo{width: 185px;float: left;margin-top: 20px;}
+#Head .content .top .logo img{display: block;margin: 0 auto;}
+#Head .content .top .logo span{display:block; font-size: 12px;margin: 0 auto;color: #c6cad2;}
+#Head .content .top .contact{float:right;margin-top: 40px;position: relative;}
+#Head .content .top .contact .p1{float: left; position: absolute;top: -25px;right: 10px;color: #ccc;font: 12px/24px Microsoft YaHei;}
+#Head .content .top .contact .p1 a{text-decoration: none; color: #ccc;}
+#Head .content .top .contact .p1 a:hover{text-decoration: none; color: #43b6ff;}
+#Head .content .top .contact .p2{float: left;margin:4px 10px 0 0; }
+#Head .content .top .contact .p2 i{font: 30px/30px Microsoft YaHei;color: #ccc;}
+#Head .content .top .contact .p2 span{font: 24px/30px Microsoft YaHei;color: #c6cad2;}
+#Head .content .top .contact .img{float: left;}
+#Head .content .top .contact .img a{display:block; margin: 0 10px;text-decoration: none; float: left;}
+#Head .content .top .contact .img a i{font: 30px/30px Microsoft YaHei;color: #ccc;}
+#Head .content .top .contact .img a:hover i{color: #43b6ff;}
+#Head .adv{width: 100%;height: 56px;}
+#Head .adv .con{width: 1024px;height: 56px;margin: 0 auto;position: relative;}
+#Head .adv .con .list{width: 800px;height: 56px;margin: 0 auto;}
+#Head .adv .con .list .listLi{float: left;position: relative;}
+#Head .adv .con .list .listLi .a{display:block;padding: 0 30px;background: url(../img/adv-bk.png) no-repeat;
+  font: 14px/56px Microsoft YaHei;text-decoration: none;color: #c6cad2;float: left;}
+  #Head .adv .con .list .L5 .a{color:#43b6ff; }  
+#Head .adv .con .list .listLi:hover .a{color:#43b6ff;}
+#Head .adv .con .list .listLi ul{width: 116px;height:0px;position: absolute;top: 56px;left: 0;z-index: 3;transform: all 0.6s;
+	overflow: hidden;opacity:0;}
+#Head .adv .con .list .L1 ul{width: 88px;} 
+#Head .adv .con .list .listLi ul li a{display:block;text-align: center; font: 14px/30px Microsoft YaHei;
+	text-decoration: none;color: #c6cad2;}
+#Head .adv .con .list .listLi ul li a:hover{color: #43b6ff;}	
+#Head .adv .con .list .listLi:hover ul{height: 200px;opacity:1;}	
+#Head .adv .con .pos{width:100%;background:#403e3f;position: absolute;top: 56px;left: 0;
+	height: 0px;z-index: 2;transition: all 0.3s;overflow: hidden;opacity:0;}
+#Head .adv .con .pos .pos_p{position: absolute;right: 56px;bottom: 30px;font: 14px/16px Microsoft YaHei;color: #c6cad2;}	
+/*头部结束*/
+
+/*导航开始*/
+#nav{width: 100%;padding:25px 0;background: #EBEBEB;}
+#nav .content {width: 1024px;margin:0 auto;background: #D9D9D9; }
+#nav .content ul{height: 45px;}
+#nav .content ul li{float: left;margin-right: 1px;}
+#nav .content ul li a{display: block;padding: 0 30px;color: #555;text-decoration: none;font: 16px/45px Microsoft YaHei;}
+#nav .content ul li:hover{background:#C8C8C8; }
+/*导航结束*/
+
+/*网站案例开始*/
+#webCase{width: 100%;padding:10px 0;background: #EBEBEB;}
+#webCase .content{width: 1024px;margin:0 auto; }
+#webCase .content ul{height: 1150px;}
+#webCase .content ul li{float: left;margin-right: 10px;margin-bottom: 10px;} 
+#webCase .content ul .eliminate{margin-right: 0px;}
+#webCase .content ul li a{display: block;text-decoration: none;color:#000;font:12px/30px Microsoft YaHei;border: 1px solid #ccc;
+	position: relative; overflow: hidden;transition:border-color 0.5s;}
+#webCase .content ul li a:hover{border-color: #fff;}
+#webCase .content ul li a:before{ content:"";width:246px;height: 348px;position: absolute;top: -372px;left:0px;background:rgba(60,60,60,0.6);
+z-index: 1;transition:top 0.2s;}
+#webCase .content ul li:hover a:before{ top:0px;}
+#webCase .content ul li a .top{padding: 10px;padding-bottom: 0px;}
+#webCase .content ul li a .top .img{width: 226px;height: 226px;margin: 0 auto;background:#fff; }
+#webCase .content ul li a .top .img img{width: 226px;height: 226px; }
+#webCase .content ul li a .bottom{padding: 10px;background: rgba(200,200,200,0.3);transition:background 0.2s;}
+#webCase .content ul li:hover a .bottom{padding: 10px;background: rgba(220,220,220,1);}
+#webCase .content ul li a .bottom p{width: 226px;height: 60px;line-height: 20px;}
+#webCase .content ul li a .eye{width:246px;height: 348px;position:absolute;top: -372px;left: 0px;text-align: center;
+	z-index: 2;opacity:0; transition:all ease-out 0.2s 0.1s;}
+#webCase .content ul li:hover a .eye{ top: 0;opacity:1;}
+#webCase .content ul li a .eye i{font:80px/240px Microsoft YaHei;color: #fff;;}
+/*网站案例结束*/
+
+/*联系我们开始*/
+#contact{width: 100%;background: #30333a;}
+#contact .content {width: 1024px;margin:0 auto;padding-top:50px;border-bottom:1px solid rgba(100,100,100,0.7);  }
+#contact .content .left{width: 150px;height: 200px;float: left;margin-left: 15px;}
+#contact .content .left p{height:35px;float: left;}
+#contact .content .left p i{font: 20px/20px Microsoft YaHei;color: #3baff7;}
+#contact .content .left p a{text-decoration: none;font: 14px/28px Microsoft YaHei;color: #fff;}
+#contact .content .left .img{width:110px;height: 110px;}
+#contact .content .middle{width:560px;height: 200px; float: left;}
+#contact .content .middle p{height:35px;float: left;}
+#contact .content .middle p i{font: 20px/20px Microsoft YaHei;color: #3baff7;}
+#contact .content .middle p a{text-decoration: none;font: 14px/28px Microsoft YaHei;color: #fff;}
+#contact .content .middle .middle_left {width: 170px;float: left;}
+#contact .content .middle .middle_left .for1{background: #1d2026;width:160px;height:22px;margin-bottom:7px;outline:none;border: none;padding: 5px;color: #fff;}
+#contact .content .middle .for2{width: 290px;height: 100px; float: left;margin-left: 7px;resize: none;outline:none;border: none;background: #1d2026;padding: 5px;color: #fff;}
+#contact .content .middle .for3{width:35px;height: 110px; border: none;background: #3baff7;margin-left: 7px;font: 12px/20px Microsoft YaHei;text-align: center;color: #fff;cursor:pointer;}
+#contact .content .right{width:290px;height: 200px; float: left;}
+#contact .content .right .p1{height:35px;float: left;}
+#contact .content .right .p1 i{font: 20px/20px Microsoft YaHei;color: #3baff7;}
+#contact .content .right .p1 a{text-decoration: none;font: 14px/28px Microsoft YaHei;color: #fff;}
+#contact .content .right .p2{font: 14px/25px Microsoft YaHei;color: #fff;}
+/*友情链接开始*/
+#contact .content .friendship{font: 14px/25px Microsoft YaHei;color: #727272;text-align: center;}
+#contact .content .friendship a{display: inline-block;color: #727272;text-decoration: none; }
+#contact .content .friendship .a2{margin-left: 5px; }
+#contact .content .friendship a:hover{color: #43b6ff;}
+/*友情连接结束*/
+/*联系我们结束*/
+
+/*右侧固定定位开始*/
+#fixed{width:50px;height: 204px;position: fixed;right: 10px;bottom:105px; }
+#fixed .content{width:50px;height: 204px;}
+#fixed .content li{width:50px;height:50px ;background: #B5B5B5;margin-bottom: 
+1px;position: relative;}
+#fixed .content li a{display: block; text-decoration: none;color:#fff;text-align: center; }
+#fixed .content li a i{font:30px/50px Microsoft YaHei;}
+#fixed .content li a .L1_content{width:198px;position: absolute; top:0;left: -198px;}
+#fixed .content li a .L1_content div{width:188px;height: 88px;background: #fff;border: 1px solid rgba(200,200,200,0.8);}
+#fixed .content li a .L1_content .img{position: absolute; top:25px;left: 189px;}
+#fixed .content .L1 a .L1_content div span{display: block; width: 60px;height:60px;float: left;border:1px solid #ccc;border-radius: 50%;box-shadow: 0 0 10px #ccc inset;margin:14px 0  0 14px;}
+#fixed .content .L1 a .L1_content div span img{display: block;width: 40px;margin: 5px auto;}
+#fixed .content .L1 a .L1_content div p{width: 70px;color: #727272;float: left;margin:23px 0  0 14px;}
+#fixed .content .L2 a .L1_content div p{width: 130px;color: #727272;text-align: left; float: left;line-height: 25px;  margin:19px 0  0 14px;margin-left: 30px;}
+#fixed .content .L2 a .L1_content div p span{color:#43b6ff;}
+#fixed .content .L3 a .L1_content{top:-102px;}
+#fixed .content .L3 a .L1_content div{height: 210px;}
+#fixed .content .L3 a .L1_content .img{top:127px;}
+#fixed .content .L3 a .L1_content div span{display: block;margin:10px auto;margin-bottom: 0px;}
+#fixed .content .L3 a .L1_content div span img{width: 165px;}
+#fixed .content .L3 a .L1_content div p{width: 165px;color: #727272;font-size: 12px; margin: 0 auto;}
+#fixed .content li a .L1_content{display: none;}
+#fixed .content li:hover a i{color: #43b6ff;}
+#fixed .content li:hover a .L1_content{display:block;}
+/*右侧固定定位结束*/
+
+/*版权开始*/
+#copy{width: 100%;background: #30333a;}
+#copy .content {width: 1024px;height: 120px;margin:0 auto;padding-top:20px;text-align: center; }
+#copy .content .p1{font: 14px/30px Microsoft YaHei;color: #727272;}
+#copy .content .p2{font: 14px/30px Microsoft YaHei;color: #727272;}
+#copy .content .p2 a{text-decoration: none;color: #727272;}
+/*版权结束*/
